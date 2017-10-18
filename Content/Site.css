@@ -26,9 +26,32 @@ nav#navvy.navbar.navbar-static-top {
     color: #FFF6F0;
     background-color: #6A1525;
 }
-#navvy a{
+
+#navvy a {
     color: #FFF6F0;
 }
-#navvy a:hover{
-    background:none;
+
+    #navvy a:hover {
+        background: none;
+    }
+
+/*BUTTON*/
+button.navbar-toggle {
+    border: 1px solid #FFF6F0;
+}
+
+span.icon-bar {
+    border: 1px solid #FFF6F0;
+}
+
+/*TRAILER SECTION*/
+.mainSec {
+    background-image: url('junkyard.jpg');
+    margin-top: 0px;
+    background-size: cover;
+}
+
+h1.container#trailer {
+    text-align: right;
+    background-color: rgbA(232,214,207,0.0);
 }
